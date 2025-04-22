@@ -16,6 +16,7 @@ public class Rock extends Actor
     {
         move(-3);
         
+
         if (getX() <= 0) {
             resetHero();
         }
@@ -39,5 +40,6 @@ public class Rock extends Actor
         } else if (num == 3){
             setLocation(600, 400);
         }
+
     }
 }
