@@ -14,6 +14,9 @@ public class Hero extends Actor
      */
     public void act()
     {
-        // Add your action code here.
+        if(Greenfoot.mouseClicked(null))
+        {
+            move(5);
+        }
     }
 }
