@@ -14,7 +14,7 @@ public class Rock extends Actor
      */
     public void act()
     {
-        move(-3);
+        move(-7);
         
 
         if (getX() <= 0) {
@@ -30,15 +30,17 @@ public class Rock extends Actor
     
     public void resetRock()
     {
-        int num = Greenfoot.getRandomNumber(4);
-        if (num == 0){
+        int num = Greenfoot.getRandomNumber(6);
+        if (num == 1){
             setLocation(600, 100);
-        } else if (num == 1) {
+        } else if (num == 2) {
             setLocation(600, 200);
-        } else if (num == 2){
-            setLocation(600, 300);
         } else if (num == 3){
+            setLocation(600, 300);
+        } else if (num == 4){
             setLocation(600, 400);
+        } else {
+            setLocation(600, 500);
         }
 
     }
