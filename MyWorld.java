@@ -9,6 +9,7 @@ public class MyWorld extends World {
         
         Rock rock = new Rock();
         addObject(rock,0,200);
-
+        
+        
     }
 }
