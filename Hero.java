@@ -22,12 +22,14 @@ public class Hero extends Actor
         }
         
         if(counter == 1){
-            setLocation(300,100);
+            setLocation(300,0);
         } else if (counter == 2){
-            setLocation(300,200);
+            setLocation(300,100);
         } else if (counter == 3) {
+            setLocation(300,200);
+        }else if (counter == 4){
             setLocation(300,300);
-        }else {
+        }else{
             setLocation(300,400);
         }
             
