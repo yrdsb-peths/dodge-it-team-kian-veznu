@@ -38,8 +38,6 @@ public class Rock extends Actor
             setLocation(600, 300);
         } else if (num == 3){
             setLocation(600, 400);
-        } else {
-            setLocation(600, 500);
         }
     }
 }
