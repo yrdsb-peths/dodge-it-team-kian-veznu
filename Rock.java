@@ -15,5 +15,6 @@ public class Rock extends Actor
     public void act()
     {
         move(6);
+        
     }
 }
