@@ -14,7 +14,7 @@ public class Rock extends Actor
      */
     public void act()
     {
-        move(6);
+        move(-3);
         
 
         if (getX() <= 0) {
