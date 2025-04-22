@@ -5,7 +5,7 @@ public class MyWorld extends World {
         super(600, 400, 1);
         
         Hero hero = new Hero();
-        addObject(hero, 200, 250);
+        addObject(hero, 100, 250);
         
         Rock rock = new Rock();
         addObject(rock,300,200);
