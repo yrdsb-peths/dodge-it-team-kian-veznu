@@ -8,7 +8,7 @@ public class MyWorld extends World {
         addObject(hero, 200, 250);
         
         Rock rock = new Rock();
-        addObject(rock,300,200);
+        addObject(rock,0,200);
 
     }
 }
