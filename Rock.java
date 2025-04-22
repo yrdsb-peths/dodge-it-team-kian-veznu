@@ -18,7 +18,7 @@ public class Rock extends Actor
         
 
         if (getX() <= 0) {
-            resetHero();
+            resetRock();
         }
         
         if (isTouching(Hero.class)){
@@ -28,7 +28,7 @@ public class Rock extends Actor
         }
     }
     
-    public void resetHero()
+    public void resetRock()
     {
         int num = Greenfoot.getRandomNumber(4);
         if (num == 0){
