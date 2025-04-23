@@ -8,10 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Rock_1 extends Actor
 {
-    /**
-     * Act - do whatever the Cactus wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public Rock_1() {
+        setImage("images/rock.png");
+    }
+    
     public void act()
     {
         move(-7);
