@@ -34,7 +34,7 @@ public class Hero extends Actor
         }
             
             
-        if(counter == 4)
+        if(counter == 5)
         {
             counter = 0;
         }
