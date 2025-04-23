@@ -10,8 +10,6 @@ public class MyWorld extends World {
         Rock rock = new Rock();
         addObject(rock,0,200);
         
-        Cactus cactus = new Cactus();
-        addObject(cactus, 0, 300);
         
     }
 }
