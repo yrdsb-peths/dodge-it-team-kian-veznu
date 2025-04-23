@@ -32,11 +32,11 @@ public class Rock_1 extends Actor
     {
         int num = Greenfoot.getRandomNumber(3);
         if (num == 1){
-            setLocation(600, 200);
+            setLocation(600, 0);
         } else if (num == 2){
             setLocation(600, 100);
         } else {
-            setLocation (600, 0);
+            setLocation (600,200);
         }
 
     }
