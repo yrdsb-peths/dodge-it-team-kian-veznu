@@ -13,6 +13,8 @@ public class MyWorld extends World {
         Rock_1 rock1 = new Rock_1();
         addObject(rock1,0,300);
         
+        GreenfootImage background = new GreenfootImage("grass.jpg");
+        setBackground(background);
         
     }
 }
