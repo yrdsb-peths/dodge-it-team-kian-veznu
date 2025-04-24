@@ -1,6 +1,7 @@
 import greenfoot.*;
 
 public class MyWorld extends World {
+    private Counter scoreCounter;
     public MyWorld() {
         super(600, 400, 1);
 
@@ -12,18 +13,22 @@ public class MyWorld extends World {
 
         Rock_1 rock1 = new Rock_1();
         addObject(rock1,0,300);
+        
+        scoreCounter = new Counter ("Score: ");
+        addObject(scoreCounter, 550, 25);
 
         GreenfootImage background = new GreenfootImage("grass.jpg");
         setBackground(background);
 
-        prepare();
     }
     
+    public void increaseScore()
+    {
+        scoreCounter.add(1);
+    }
+    }
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
      */
-    private void prepare()
-    {
-    }
-}
+    //private void prepare()
