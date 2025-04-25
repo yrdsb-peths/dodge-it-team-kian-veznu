@@ -9,13 +9,12 @@ public class MyWorld extends World {
         addObject(hero, 300, 200);
 
 
-        Car_1 rock = new Car_1();
+        Rock rock = new Rock();
+        Rock rock_1 = new Rock();
         addObject(rock,0,0);
-        Car carOne = new Car();
-        addObject(carOne,0,0);
+        addObject(rock_1,0,0);
 
-        Car carTwo = new Car();
-        addObject(carTwo,0,300);
+        
         
         
 
