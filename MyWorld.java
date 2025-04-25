@@ -8,11 +8,14 @@ public class MyWorld extends World {
         Hero hero = new Hero();
         addObject(hero, 300, 200);
 
+
         Car_1 rock = new Car_1();
         addObject(rock,0,0);
+        Car carOne = new Car();
+        addObject(carOne,0,0);
 
-        Rock_1 rock1 = new Rock_1();
-        addObject(rock1,0,300);
+        Car carTwo = new Car();
+        addObject(carTwo,0,300);
         
         
 
