@@ -6,10 +6,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Car extends Actor
+public class CarOne extends Actor
 {
-    public Car() {
-        setImage("images/rock.png");
+    public CarOne() {
+        setImage("images/car01.png");
     }
     
     public void act()

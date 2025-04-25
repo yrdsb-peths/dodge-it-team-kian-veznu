@@ -2,10 +2,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 
 
-public class Rock extends Actor
+public class CarTwo extends Actor
 {
-    public Rock() {
-        setImage("images/rock.png");    
+    public CarTwo() {
+        setImage("images/car01.png");    
     }
     
     public void act()
