@@ -4,7 +4,7 @@ public class TopRock extends Actor
 {
     public void act()
     {
-        move(6);
+        move(-7);
         
         if (getX() <= 0) {
             resetHero();
