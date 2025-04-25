@@ -17,25 +17,9 @@ public class Hero extends Actor
     {
         if(Greenfoot.mouseClicked(null))
         {
-            if (!isTouching(Rock.class))
-            {
-                counter += 1;
-                ((MyWorld)getWorld()).increaseScore();
-            } else {
-                counter = 0;
-                return;
-            }
-            
-            if (!isTouching(Rock_1.class))
-            {
-                counter += 1;
-                ((MyWorld)getWorld()).increaseScore();
-            } else {
-                counter = 0;
-                return;
-            }
+            counter += 1;
         }
-        
+            
         if(counter == 1){
             setLocation(300,0);
         } else if (counter == 2){
@@ -47,11 +31,11 @@ public class Hero extends Actor
         }else{
             setLocation(300,400);
         }
-            
-            
+        
         if(counter == 5)
         {
             counter = 0;
         }
+            
     }
 }
