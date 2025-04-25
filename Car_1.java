@@ -2,9 +2,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 
 
-public class Rock extends Actor
+public class Car_1 extends Actor
 {
-    public Rock() {
+    public Car_1() {
         setImage("images/rock.png");    
     }
     
@@ -14,7 +14,7 @@ public class Rock extends Actor
         
 
         if (getX() <= 0) {
-            resetRock();
+            resetCar_1();
         }
         
         if (isTouching(Hero.class)){
@@ -24,7 +24,7 @@ public class Rock extends Actor
         }
     }
     
-    public void resetRock()
+    public void resetCar_1()
     {
         int num = Greenfoot.getRandomNumber(2);
         if (num == 1){
