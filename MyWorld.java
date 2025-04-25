@@ -8,20 +8,9 @@ public class MyWorld extends World {
         Hero hero = new Hero();
         addObject(hero, 300, 200);
 
-
-
-        
-        
-        
-
-
         GreenfootImage background = new GreenfootImage("grass.jpg");
         setBackground(background);
 
     }
 }
-    /**
-     * Prepare the world for the start of the program.
-     * That is: create the initial objects and add them to the world.
-     */
-    //private void prepare()
+    
