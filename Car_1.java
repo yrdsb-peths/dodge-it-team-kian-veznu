@@ -2,13 +2,18 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 
 
-
+<<<<<<<< HEAD:CarTwo.java
 public class CarTwo extends Actor
 {
     public CarTwo() {
         setImage("images/car01.png");    
+========
+public class Car_1 extends Actor
+{
+    public Car_1() {
+        setImage("images/rock.png");    
+>>>>>>>> 006670824d257fa5d424db711fd3418070969115:Car_1.java
     }
-
     
     public void act()
     {
