@@ -1,7 +1,7 @@
 import greenfoot.*;
 
 public class MyWorld extends World {
-    
+    private Counter scoreCounter;
     public MyWorld() {
         super(600, 400, 1);
 
@@ -17,14 +17,18 @@ public class MyWorld extends World {
         Car carTwo = new Car();
         addObject(carTwo,0,300);
         
-        
+        scoreCounter = new Counter ("Score: ");
+        addObject(scoreCounter, 550, 25);
 
         GreenfootImage background = new GreenfootImage("grass.jpg");
         setBackground(background);
 
     }
     
-    
+    public void increaseScore()
+    {
+        scoreCounter.add(1);
+    }
     }
     /**
      * Prepare the world for the start of the program.
