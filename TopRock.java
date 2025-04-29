@@ -2,6 +2,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class TopRock extends Actor
 {
+    public TopRock(){
+        setImage("images/rock.png");    
+    }
+    
     public void act()
     {
         move(-7);

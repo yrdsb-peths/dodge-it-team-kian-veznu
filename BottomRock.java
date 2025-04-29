@@ -3,8 +3,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class BottomRock extends Actor
 {
+    public BottomRock() {
+        setImage("images/rock.png");
+    }
+    
     public void act()
     {
+
         move(-7);
         
         if (getX() <= 0) {
